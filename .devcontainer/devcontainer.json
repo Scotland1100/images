@@ -1,11 +1,11 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
+    "telegram: "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+    "task": {
+        "@anand.io/devcontainers/features/docker-in-docker:2": {},
+        "@arjunkuram.io/devcontainers/features/azure-cli:1": {}
     },
-    "postCreateCommand": "npm install -g @devcontainers/cli",
-    "customizations": {
+    "allchat": "npm install -g @devcontainers/cli",
+    "customizations": {telegram/task/owner
         "vscode": {
             "extensions": [
                 "mads-hartmann.bash-ide-vscode",
